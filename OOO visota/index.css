@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: "Alumni Sans", serif;
+    color: #fff;
+}
+.firstWin {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/sss1.jpg);
+    background-size: cover;
+}
+.firstWin1 {
+    width: calc(100% - 8rem);
+    height: auto;
+    font-size: 13rem;
+    line-height: 5rem;
+    padding: 4rem 0 0 4rem;
+}
+.firstWin1 b{
+    font-size: 6rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
+.firstWin2 {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 40px;
+    margin: 40rem 4rem;
+    border: #333;
+    background-color: #333;
+    color: #fff;
+    font-family: "Alumni Sans", serif;
+    font-size: 2rem;
+    transition: 1s;
+}
+.firstWin2:hover {
+    background-color: #333;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    transition: 1s;
+}
+.secondWin {
+    width: 100%;
+    height: 5rem;
+    background-color: #333;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 4rem;
+}
+.threeWin {
+    width: 100%;
+    height: 225rem;
+    background-image: url(img/i\ \(8\)\ 1.png);
+    background-size: cover;
+}
+.threeWin1 {
+    width: 80%;
+    height: 100%;
+    background-color: #333;
+    margin:0 10%;
+}
+.threeWin11 {
+    width: calc(100% - 2rem);
+    height: calc(20% - 2rem);
+    background-image: url(img/38c0a88bb6763128c7fd56cf1f42cb5d\ 1.jpg);
+    margin: 1rem;
+    margin-top: 0;
+    background-size: cover;
+}
+.threeWin111 {
+    width: 40%;
+    background-color: #333;
+    font-size: 3rem;
+}
+.threeWin12 {
+    width: 100%;
+    height: 50rem;
+}
+.threeWin121 {
+    text-align: center;
+    font-size: 4rem;
+}
+.threeWin122 {
+    width: calc(100% - 2rem);
+    height: 80%;
+    margin: 0 1rem;
+    background-image: url(img/XXL\ \(1\)\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.threeWin13 {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.threeWin2 {
+    width: 45%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.t1311 , .t1312 {
+    position: absolute;
+    background-color: #FFCC00;
+    width: 30rem;
+    height: 15rem;
+    top: 4rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    font-family: "Alumni Sans", serif;
+    z-index: 1;
+    display: none;
+}
+.ttt111 {
+    width: 15rem;
+    font-family: "Alumni Sans", serif;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    border-bottom: 1px solid #333;
+}
+.threeWin131, .threeWin133 {
+    height: 5rem;
+    width: 30.2rem;
+    line-height: 3rem;
+    border-radius: 3rem;
+    text-align: center;
+    background-color: #FFCC00;
+    font-family: "Alumni Sans", serif;
+    font-size: 1.8rem;
+    z-index: 0;
+}
+.threeWin131:focus, .threeWin133:focus {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: 1s;
+}
+.threeWin14 {
+    width: 100%;
+    height: 40rem;
+}
+.threeWin141 {
+    width: 100%;
+    height: 5rem;
+    background-color: #333;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.threeWin142 {
+    width: 100%;
+    height: 35rem;
+}
+.threeWin15 {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+}
+.threeWin151 {
+    width: 40rem;
+    height: 60rem;
+    background-color: #FFCC00;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.threeWin1511 {
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.threeWin1512,.threeWin1513,.threeWin1514 {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+    font-size: 2rem;
+    font-family: "Alumni Sans", serif;
+
+}
+.ssss::before{
+    content: "ИМЯ";
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-family: "Alumni Sans", serif;
+
+}
+.sssss::before{
+    content: "ТЕЛЕФОН";
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-family: "Alumni Sans", serif;
+
+}
+.ssssss::before{
+    content: "ПОЧТА";
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-family: "Alumni Sans", serif;
+
+}
+.threeWin1512:focus,.threeWin1513:focus,.threeWin1514:focus {
+    font-size: 2rem;
+}
+.threeWin1515 {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 40px;
+    border: #333;
+    background-color: #333;
+    color: #fff;
+    font-family: "Alumni Sans", serif;
+    font-size: 2rem;
+    transition: 1s;
+}
+.threeWin1515:hover {
+    background-color: #333;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    transition: 1s;
+}
+.threeWin1516 {
+    font-size: 3rem;
+    text-align: center;
+}
+.threeWin1517 {
+    font-size: 2rem;
+}
+.footer {
+    width: 100%;
+    height: 20rem;
+    background-color: #333;
+
+}
+.foter {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 15% 5rem;
+}
+.footer1 {
+    font-size: 1.5rem;
+}
+.footer1 b {
+    font-size: 4rem;
+}
+.footer2 {
+    font-size: 1.5rem;
+}
+
+.carousel_items {
+    display: flex;
+    wrap: nowrap;
+    overflow: hidden;
+  }
+  .carousel_item {
+    position: relative;
+    min-width: 100%;
+    height: 30rem;
+    transition: all 0.5s linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .carousel_text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: calc(1.5rem + 0.3vw);
+    font-weight: bolder;
+    font-family: "Alumni Sans", serif;
+
+  }
+  
+  .item1 {
+    background-image: url("img/carousel.jpg");
+    background-size: cover;
+}
+  .item2 {
+    background-image: url("img/carousel2.jpg");
+    background-size: cover;
+}
+  .item3 {
+    background-image: url("img/carousel3.jpg");
+    background-size: cover;
+}
+  .item4 {
+    background-image: url("img/carousel4.jpg");
+    background-size: cover;
+}
+  .item5 {
+    background-image: url("img/carousel5.jpg");
+    background-size: cover;
+}
